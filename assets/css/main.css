@@ -1,0 +1,51 @@
+*{
+  font-family: Ralewy,sans-serif;
+}
+
+body{
+  margin: 20px 40px;
+  text-align: center;
+}
+
+figure{
+  display:inline-block;
+  margin-left: 0px;
+  margin-right: 50px;
+  position: relative;
+}
+
+figure img{
+    filter: brightness(70%);
+    transition: 0.4s;
+}
+
+figure img:hover{
+  filter: brightness(120%);
+}
+
+nombre{
+    position: relative;
+    text-align: right;
+    bottom: 40px;
+    right: 10px;
+    color: white;
+}
+
+#contenedor{
+  /*position: relative;*/
+  margin: 10px;
+}
+
+h1::after{
+  display: block;
+  width: 120px;
+  margin-top: 10px;
+  height: 8px;
+  content: "";
+  background-color: black;
+}
+
+imagenes{
+  width: 100px;
+  height: 100px;
+}
