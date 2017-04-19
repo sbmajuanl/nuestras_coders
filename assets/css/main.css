@@ -3,14 +3,12 @@
 }
 
 body{
-  margin: 20px 40px;
-  text-align: center;
+ margin:20px 20px 10px 70px
 }
 
 figure{
   display:inline-block;
-  margin-left: 0px;
-  margin-right: 50px;
+  right:0px;
   position: relative;
 }
 
@@ -26,14 +24,17 @@ figure img:hover{
 nombre{
     position: relative;
     text-align: right;
-    bottom: 40px;
-    right: 10px;
+    bottom: 37px;
+    left: 165px;
     color: white;
 }
 
 #contenedor{
-  /*position: relative;*/
-  margin: 10px;
+  position: relative;
+  margin: 5px;
+}
+h1{
+  margin-left: 41px;
 }
 
 h1::after{
@@ -45,7 +46,7 @@ h1::after{
   background-color: black;
 }
 
-imagenes{
-  width: 100px;
+.imagenes{
+  width: 328px;
   height: 100px;
 }
